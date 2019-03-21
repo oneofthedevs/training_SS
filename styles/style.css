@@ -1,0 +1,275 @@
+.navbarli{
+    font-size: 12px;
+    font-weight: bold;
+	display: inline-block;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
+.navbarui{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    padding-top: 10px;
+}
+
+.navbardiv{
+    letter-spacing: 2px;
+	background-color: #000;
+    align-content: center;
+    color: #e0e0e0;
+}
+
+nav div a{
+	text-decoration: none;
+	color: #e0e0e0;
+}
+
+.navbtn
+{
+    float: right;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 12px 20px 12px 20px;
+    background-color: #6fd1bd;
+    border: 0px;
+    color: #fff;
+}
+
+.navbtn:hover
+{
+    background-color: #fa8072;
+}
+.navbarlink
+{
+    text-decoration: none;
+    color: #fff;
+}
+.navbarlink:hover
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.namediv
+{
+    float: left;
+    padding-top: 13%;
+}
+
+.name
+{
+    font-size: 4vw;
+    font-weight: 700;
+    text-shadow: 4px 4px 0 #6fd1bd;
+    transition: 0.3s;
+    line-height: 4.3vw;
+}
+.name:hover
+{
+    text-shadow: -4px -4px 0 #fa8072;
+    transition: 0.3s;
+}
+
+.nameline
+{   
+    padding-top: 10px;
+    font-size: 1.8vw;
+    line-height: 20px;
+    border-top: #000 solid 10px;
+}
+
+.address
+{
+    padding-bottom: 0px;
+    padding-right: 15px;
+    margin: 0;
+    text-decoration: none;
+}
+.address
+{
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+
+.address:hover
+{
+    text-decoration: none;
+}
+
+.addressline2
+{
+    border-bottom: #3e3e3e solid 1px;
+    text-decoration: none;
+    color: #000;
+}
+
+.addressline2:hover
+{
+    border-bottom: red solid 1px;
+}
+
+.addressline3
+{
+    color: #000;
+    text-decoration: none;
+    border-bottom: #6fd1bd solid 1px;
+}
+.addressline3:hover
+{
+    text-decoration: none;
+    border-bottom: red solid 1px;
+}
+.txtbottom
+{
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+}
+
+.esec
+{
+    padding-top: 100px;
+    vertical-align: middle;
+}
+
+.esec1
+{
+    padding-top: 30px;
+    vertical-align: middle;
+    padding-bottom: 70px;
+}
+.esec2
+{
+    padding-top: 12px;
+}
+
+.esec3
+{
+    padding-top: 30px;
+}
+
+.secul
+{
+    margin: 0;
+    padding-left: 20px;
+}
+.sectiontext
+{
+    text-align: left;
+    font-size: 14x;
+}
+.sectiontit
+{
+    font-size: 22px;
+}
+
+.sectionbrtp
+{
+    border-top: 1px solid #ddd;
+    padding-top: 40px;
+}
+
+.greencol
+{
+    font-weight: 600;
+    padding: 0px 10px 0px 10px;
+    background-color: rgba(111, 209, 189, .5);
+    border-radius: 2px;
+    transition: 1s;
+}
+.greencol:hover
+{
+    padding: 12px 12px 12px 12px;
+    transition: .2s;
+    background-color: rgba(111, 209, 189, 1);
+}
+
+.xptit
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.emptit
+{
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: #000 1px solid;
+}
+.emptit:hover
+{
+    border-bottom: red 1px solid;
+    text-decoration: none;
+    color: #000;
+}
+
+.xpdate
+{
+    font-size: 18px;
+}
+
+.footercl
+{
+    margin-top: 3%;
+    margin-bottom: 35px;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.footerlink
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+.footerlink:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.alignr
+{
+    text-align: right;
+}
+.mar15nav
+{
+    margin-left: 58px;
+    margin-right: 58px;
+}
+.mar15
+{
+    margin-left: 58px;
+    margin-right: 58px;
+}
+
+.padr30
+{
+    padding-right: 30px;
+}
+
+@media (max-width: 768px) {
+    .navbtn { display: none; }
+    .navbardiv{ padding: 12px 12px 12px 12px;  font-size: 8px;}
+    .alignr{text-align: left;}
+    .navbarli{padding-left: 2px;}
+    .name{font-size: 50px; line-height: 60px;}
+    .nameline{font-size: 23px;}
+    .mar15nav{margin-right: 0; margin-left: 0}
+    .mar15{margin-left: 10px; margin-right: 10px;}
+ }
+
+ @media (max-width: 570px)
+ {
+    .txtbottom{position: relative; text-align: left;}
+    .navbarli{padding-left: 0px; padding-right: 0px;}
+    .mar15nav{margin-right: 0; margin-left: 0}
+ }
